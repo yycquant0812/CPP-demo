@@ -5,8 +5,7 @@
 
 
 int main() {
-    int file_size = 100, count = 4; //multiple variable declaration
-    double salary = 99.01;
-    std::cout << file_size; 
+    const double pi = 3.14;
+    pi =6; // can't do assign to const
     return 0;
 }
