@@ -5,8 +5,8 @@
 
 
 int main() {
-    int file_size;
+    int file_size = 100, count = 4; //multiple variable declaration
     double salary = 99.01;
-    std::cout << file_size;
+    std::cout << file_size; 
     return 0;
 }
