@@ -69,7 +69,7 @@ git config --global credential.helper manager
 
 1.登入 GitHub → **Settings** → **Developer settings** → **Personal Access Tokens**。
 
-![image.png]([image%204.png](https://github.com/yycquant0812/CPP-demo/blob/main/img/image%204.png?raw=true))
+![image.png](https://github.com/yycquant0812/CPP-demo/blob/main/img/image%204.png?raw=true)
 
 2.建立一個 **Fine-grained token** 或 **Classic token**（選 read/write 權限給 repo）。
 
