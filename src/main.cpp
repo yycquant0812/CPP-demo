@@ -5,5 +5,8 @@
 
 
 int main() {
-    std::cout << "Hello, World!";  // cout is caracter output 
+    int file_size;
+    double salary = 99.01;
+    std::cout << file_size;
+    return 0;
 }
