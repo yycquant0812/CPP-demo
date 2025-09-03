@@ -77,3 +77,62 @@ git config --global credential.helper manager
 
 ![image5.jpg](https://github.com/yycquant0812/CPP-demo/blob/main/img/image5.jpg?raw=true)
 
+# 2安裝步驟替代方法
+# Windows 安裝 Git、MSYS2、VSCode
+
+## 1. 安裝 Git
+1. 前往官方網站下載  
+   👉 https://git-scm.com/download/win  
+2. 執行安裝檔，建議勾選以下選項：  
+   - **Use Git from the Command Prompt**  
+   - **Checkout Windows-style, commit Unix-style line endings**  
+   - 其他保持預設即可  
+3. 安裝完成後，在 `cmd` 或 `PowerShell` 測試：  
+   ```bash
+   git --version
+   ```
+
+---
+
+## 2. 安裝 MSYS2
+1. 前往官方網站下載  
+   👉 https://www.msys2.org/  
+2. 安裝後，開啟 **MSYS2 MSYS** 終端機。  
+3. 先更新套件資料庫與核心套件：  
+   ```bash
+   pacman -Syu
+   ```
+   完成後關閉視窗，再次打開執行：  
+   ```bash
+   pacman -Su
+   ```
+4. 安裝常用工具（如 gcc、make、vim）：  
+   ```bash
+   pacman -S base-devel gcc vim
+   ```
+
+---
+
+## 3. 安裝 Visual Studio Code
+1. 前往官網下載  
+   👉 https://code.visualstudio.com/Download  
+2. 選擇 **System Installer (User Installer 也可)**。  
+3. 安裝過程建議勾選：  
+   - **Add to PATH**  
+   - **Register Code as editor for supported file types**  
+   - **Add "Open with Code" action to Windows Explorer context menu**  
+4. 完成後，在 PowerShell 測試：  
+   ```bash
+   code --version
+   ```
+
+---
+
+## 4. 驗證環境
+```bash
+git --version
+gcc --version
+code --version
+```
+
+成功輸出版本號代表安裝完成 🎉
