@@ -35,9 +35,9 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 C:\msys64\ucrt64\bin
 C:\msys64\mingw64\bin
 ```
-![image.png](env0)
-![image.png](env2)
-![image.png](env3)
+![image.png](https://github.com/yycquant0812/CPP-demo/blob/main/img/env0.png?raw=true)
+![image.png](https://github.com/yycquant0812/CPP-demo/blob/main/img/env2.png?raw=true)
+![image.png](https://github.com/yycquant0812/CPP-demo/blob/main/img/env3.png?raw=true)
 
 
 
