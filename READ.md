@@ -19,9 +19,6 @@ winget install -e --id Git.Git
 winget install -e --id Microsoft.VisualStudioCode
 ```
 
-```bash
-g++ --version
-```
 
 ## 2. 安裝 g++ 編譯器
 
@@ -33,8 +30,18 @@ pacman -Syu
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 輸入１　３
 ```
+### 添加環境變數
+```bash
+C:\msys64\ucrt64\bin
+C:\msys64\mingw64\bin
+```
+![image.png](env0)
+![image.png](env2)
+![image.png](env3)
 
-驗證
+
+
+打開 cmd 驗證
 
 ```bash
 g++ --version
@@ -76,6 +83,13 @@ git config --global credential.helper manager
 3.複製 Token（注意：只會顯示一次）。
 
 ![image5.jpg](https://github.com/yycquant0812/CPP-demo/blob/main/img/image5.jpg?raw=true)
+
+## 6. 驗證環境
+```bash
+git --version
+gcc --version
+code --version
+```
 
 # 2安裝步驟替代方法
 # Windows 安裝 Git、MSYS2、VSCode
